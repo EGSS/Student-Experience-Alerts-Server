@@ -1,0 +1,9 @@
+
+
+V:0.0.0.2
+Create thread for each room, when found, autopopulate form.
+
+boilerplate code for Nautique
+private static final String NAUTIQUE_URL = "http://nautiqueliving.studentexperience.nl/";
+Runnable nautiqueTracker = new LocationScanner(NAUTIQUE_URL);
+Thread nautiqueThread = new Thread(nautiqueTracker);
